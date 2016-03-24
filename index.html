@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Your Profile</h1>
-      <p>To view a list of possible matches, please answer the questions below:</p>
+    <p>To view a list of possible matches, please answer the questions below:</p>
 
     <form id="questions">
       <!--  --------------------->
@@ -21,8 +21,8 @@
       <select id="age" class="form-control">
         <option value="under20">18-20</option>
         <option value="under30">21-30</option>
-        <option value="over30">31-40</option>
-        <option value="over40">41-50</option>
+        <option value="over40">31-40</option>
+        <option value="over50">41-50</option>
       </select>
       <!--  --------------------->
       <label for="gender">Gender</label>
@@ -59,42 +59,65 @@
         <option value="Brazilian">Brazilian</option>
         <option value="Europian">Europian</option>
       </select>
-
       <button type="submit" class="btn">Submit Profile</button>
     </form>
 
-    <div id="femaleMatch">
-      <p>These are your matches according to your profile</p>
+    <div id="femaleMatch" class="match">
+    <h2>These are your matches</h2>
       <ol>
-        <li> John Green</li>
-          <img src="css/img/john.jpg" alt="John Green">
-        <p>To get to know more about John <a href="#">Click here</a></p>
-        <li> Matt Blue</li>
+        ----------------
+        <div class="John">
+          <li> John Green</li>
+            <img src="css/img/john.jpg" alt="John Green">
+          <p>To get to know more about John <a href="#">Click here</a></p>
+        </div>
+        --------------------
+        <div class="Matt">
+          <li> Matt Blue</li>
           <img src="css/img/matt.jpg" alt="Mike Pink">
-            <p>To get to know more about Matt <a href="#">Click here</a></p>
-        <li> Mike Pink</li>
+          <p>To get to know more about Matt <a href="#">Click here</a></p>
+        </div>
+        -------------------------
+        <div class="Mike">
+          <li> Mike Pink</li>
           <img src="css/img/mike.jpg" alt="John Green">
-            <p>To get to know more about Mike <a href="#">Click here</a></p>
-        <li> Barack Obama</li>
-          <img src="css/img/obama.jpg" alt="Barack Obama">
+          <p>To get to know more about Mike <a href="#">Click here</a></p>
+        </div>
+          -----------------------
+          <div class="Obama">
+            <li> Barack Obama</li>
+            <img src="css/img/obama.jpg" alt="Barack Obama">
             <p>To get to know more about Obama <a href="#">Click here</a></p>
-      </ol>
-    </div>
-    <div id="maleMatch">
-      <p>These are your matches according to your profile</p>
-      <ol>
-        <li> Barbara Brown</li>
-          <img src="css/img/barbara.jpg" alt="Barbara Brown">
-        <p>To get to know more about Barbara <a href="#">Click here</a></p>
-        <li> Angela Purple</li>
+          </div>
+        </ol>
+      </div>
+
+      <div id="maleMatch" class="match">
+        <ol>
+          -------------------
+          <div class ="Barbara">
+            <li> Barbara Brown</li>
+            <img src="css/img/barbara.jpg" alt="Barbara Brown">
+            <p>To get to know more about Barbara <a href="#">Click here</a></p>
+          </div>
+          -------------
+          <div class="Angela"
+          <li> Angela Purple</li>
           <img src="css/img/angela.jpg" alt="Angela Purple">
-            <p>To get to know more about Angela <a href="#">Click here</a></p>
-        <li> Sara Red</li>
+          <p>To get to know more about Angela <a href="#">Click here</a></p>
+        </div>
+        --------------------------
+        <div class="Sara">
+          <li> Sara Red</li>
           <img src="css/img/sara.jpg" alt="Sara Red">
-            <p>To get to know more about Sara <a href="#">Click here</a></p>
-        <li> Michelle Obama</li>
+          <p>To get to know more about Sara <a href="#">Click here</a></p>
+        </div>
+        -----------------------------
+        <div class="Michelle">
+          <li> Michelle Obama</li>
           <img src="css/img/mobama.jpg" alt="Michelle Obama">
-            <p>To get to know more about Michelle <a href="#">Click here</a></p>
+          <p>To get to know more about Michelle <a href="#">Click here</a></p>
+        </div>
       </ol>
     </div>
   </div>
